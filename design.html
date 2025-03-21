@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIY设计 - 云囊工坊</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+    <header>
+        <h1>云囊工坊</h1>
+        <nav>
+            <ul>
+                <li><a href="project.html">首页</a></li>
+                <li><a href="symptoms.html">症状输入</a></li>
+                <li><a href="design.html">DIY设计</a></li>
+                <li><a href="order.html">订单管理</a></li>
+                <li><a href="vip.html">会员中心</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="design">
+            <h2>DIY设计</h2>
+            <div id="design-templates">
+                <h3>模板提供</h3>
+                <div class="template-grid">
+                    <div class="template" data-template="template1">
+                        <img src="1.png" alt="模板1">
+                        <p>模板1</p>
+                    </div>
+                    <div class="template" data-template="template2">
+                        <img src="2.png" alt="模板2">
+                        <p>模板2</p>
+                    </div>
+                    <div class="template" data-template="template3">
+                        <img src="3.png" alt="模板3">
+                        <p>模板3</p>
+                    </div>
+                </div>
+            </div>
+            <div id="custom-upload">
+                <h3>上传自定义图片</h3>
+                <input type="file" id="custom-image" accept="image/*">
+            </div>
+            <div id="design-preview">
+                <h3>设计预览</h3>
+                <img id="preview-image" src="4.png" alt="设计预览">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 云囊工坊. 保留所有权利。</p>
+    </footer>
+    <script src="project.js"></script>
+</body>
+</html>

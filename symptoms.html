@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>症状输入 - 云囊工坊</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+    <header>
+        <h1>云囊工坊</h1>
+        <nav>
+            <ul>
+                <li><a href="project.html">首页</a></li>
+                <li><a href="symptoms.html">症状输入</a></li>
+                <li><a href="design.html">DIY设计</a></li>
+                <li><a href="order.html">订单管理</a></li>
+                <li><a href="vip.html">会员中心</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="symptoms">
+            <h2>症状输入</h2>
+            <form id="symptoms-form">
+                <label for="symptoms">身体症状:</label>
+                <textarea id="symptoms" name="symptoms" rows="4" placeholder="请输入您的身体症状，如睡眠不佳、容易疲劳等"></textarea>
+
+                <label for="habits">生活习惯:</label>
+                <input type="text" id="habits" name="habits" placeholder="请输入您的生活习惯">
+
+                <label for="allergies">过敏史:</label>
+                <input type="text" id="allergies" name="allergies" placeholder="请输入您的过敏史">
+
+                <button type="submit">提交</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 云囊工坊. 保留所有权利。</p>
+    </footer>
+    <script src="project.js"></script>
+</body>
+</html>
