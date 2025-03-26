@@ -351,3 +351,9 @@ document.getElementById('symptoms-form').addEventListener('submit', function (ev
 recommendationsModal.addEventListener('click', function () {
     this.classList.remove('visible');
 });
+
+// 手机端导航菜单交互逻辑
+document.getElementById('menu-toggle').addEventListener('click', function() {
+    const menu = document.getElementById('menu');
+    menu.classList.toggle('active');
+});
